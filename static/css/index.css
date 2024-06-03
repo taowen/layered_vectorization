@@ -185,3 +185,13 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.notphone{
+  display: block;
+}
+/* Show the element when the screen width is less than or equal to 600px */
+  @media (max-width: 600px) {
+    .notphone {
+        display: none;
+    }
+}
