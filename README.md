@@ -8,9 +8,9 @@
 
 
 <p align="center">
-<img src="/gallery.jpeg" width="90%"/>  
+<img src="/gallery_threerow.jpg" width="90%"/>  
   
-> <a href="https://inspirationtree.github.io/inspirationtree/">**Concept Decomposition for Visual Exploration and Inspiration**</a>
+> <a href="">**Project Homepage >>**</a>
 >
 > <a href="#">Zhenyu Wang</a>,
 <a href="">Jinaxi Huang</a>,
