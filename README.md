@@ -1,6 +1,6 @@
 # Layered Image Vectorization via Semantic Simplification
 
-<a href="https://inspirationtree.github.io/inspirationtree/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
+<a href="https://szuviz.github.io/layered_vectorization/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a>
 <a href="https://arxiv.org/abs/2305.18203"><img src="https://img.shields.io/badge/arXiv-2305.16311-b31b1b.svg"></a>
 <a href="https://www.apache.org/licenses/LICENSE-2.0.txt"><img src="https://img.shields.io/badge/License-Apache-yellow"></a>
 <!-- Official implementation. -->
@@ -10,8 +10,8 @@
 <p align="center">
 <img src="/gallery_threerow.jpg" width="90%"/>  
   
-> Zhenyu Wang,
-Jinaxi Huang,
+<a href="#"> Zhenyu Wang</a>,
+<a href="#"> Jianxi Huang</a> ,
 <a href="https://zhdsun.github.io/">Zhida Sun</a>,
 <a href="https://danielcohenor.com/">Daniel Cohen-Or</a>,
 <a href="https://deardeer.github.io/">Min Lu</a>
@@ -26,7 +26,7 @@ Jinaxi Huang,
             importantly, maintaining vector compactness and manageability.
 </p>
 
-## Code (coming soon
+## Code (coming soon)
 ## Citation
 If you find this useful for your research, please cite the following:
 ```bibtex
@@ -38,6 +38,3 @@ If you find this useful for your research, please cite the following:
 }
 ```
 
-## Disclaimer
-
-This is not an officially supported Google product.
