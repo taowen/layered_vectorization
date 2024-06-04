@@ -10,10 +10,8 @@
 <p align="center">
 <img src="/gallery_threerow.jpg" width="90%"/>  
   
-> <a href="">**Project Homepage >>**</a>
->
-> <a href="#">Zhenyu Wang</a>,
-<a href="">Jinaxi Huang</a>,
+> Zhenyu Wang,
+Jinaxi Huang,
 <a href="https://zhdsun.github.io/">Zhida Sun</a>,
 <a href="https://danielcohenor.com/">Daniel Cohen-Or</a>,
 <a href="https://deardeer.github.io/">Min Lu</a>
