@@ -9,32 +9,28 @@
 
 <p align="center">
 <img src="/gallery_threerow.jpg" width="90%"/>  
-  
-<a href="#"> Zhenyu Wang</a>,
-<a href="#"> Jianxi Huang</a> ,
+  <br>
+    
+> <a href="https://szuviz.github.io/layered_vectorization">**Layered Image Vectorization via Semantic Simplification**</a>
+>
+> <a href="/"> Zhenyu Wang</a>,
+<a href="/"> Jianxi Huang</a> ,
 <a href="https://zhdsun.github.io/">Zhida Sun</a>,
 <a href="https://danielcohenor.com/">Daniel Cohen-Or</a>,
 <a href="https://deardeer.github.io/">Min Lu</a>
 > <br>
-> This work presents a novel progressive image vectorization technique aimed
-            at generating layered vectors that represent the original image from coarse
-            to fine detail levels. Our approach introduces semantic simplification, which
-            combines Score Distillation Sampling and semantic segmentation to iteratively simplify the input image. Subsequently, our method optimizes the
-            vector layers for each of the progressively simplified images. Our method provides robust optimization, which avoids local minima and enables adjustable
-            detail levels in the final output. The layered, compact vector representation enhances usability for further editing and modification. Comparative
-            analysis with conventional vectorization methods demonstrates our technique’s superiority in producing vectors with high visual fidelity, and more
-            importantly, maintaining vector compactness and manageability.
+> <p>This work presents a novel progressive image vectorization technique aimed at generating layered vectors that represent the original image from coarse to fine detail levels. Our approach introduces semantic simplification, which combines Score Distillation Sampling and semantic segmentation to iteratively simplify the input image. Subsequently, our method optimizes the vector layers for each of the progressively simplified images. Our method provides robust optimization, which avoids local minima and enables adjustable detail levels in the final output. The layered, compact vector representation enhances usability for further editing and modification. 
 </p>
 
 ## Code (coming soon)
 ## Citation
 If you find this useful for your research, please cite the following:
 ```bibtex
-@article{vinker2023concept,
-  title={Concept Decomposition for Visual Exploration and Inspiration},
-  author={Yael Vinker and Andrey Voynov and Daniel Cohen-Or and Ariel Shamir},
-  journal={arXiv preprint arXiv:2305.18203},
-  year={2023}
+@article{Wang2024Layered,
+  title={Layered Image Vectorization via Semantic Simplification},
+  author={Zhenyu Wang, Jianxi Huang, Zhida Sun, Daniel Cohen-Or and Min Lu},
+  journal={arXiv preprint },
+  year={2024}
 }
 ```
 
