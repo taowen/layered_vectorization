@@ -345,13 +345,9 @@
       </div>
       <img src="./static/images/framework7.png" alt="image" style="max-width: 100%">
       <div class="content has-text-justified">
-        Our framework consists of two modules that work sequentially
-        to achieve layered vectorization. One module is Progressive Image
-          Simplification that employs Score Distillation Sampling combined with semantic segmentation to generate a sequence
-        of images with varying levels of semantic simplicity. The other module Layered Vectorization uses that
-        series of simplified images as guidance and generates vectors layer
-        by layer, from coarse to fine level of detail.
-        </div>
+        Layered vectorization pipeline: with the input of a target image, its sequence of progressive simplified images is generated using the SDS diffusion model. 
+        Vectors are then reconstructed in two stages: structure construction via layer-wise shape optimization to match segmented masks and visual refinement for high fidelity.
+      </div>
     </div>
   </div>
 </section>
