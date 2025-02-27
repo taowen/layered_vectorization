@@ -118,7 +118,59 @@
             <span class="author-block"><sup>1</sup>Shenzhen University,</span>
             <span class="author-block"><sup>2</sup>Tel-Aviv University</span>
           </div>
-
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/2011.12948"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2406.05404"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper (arXiv)</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/SZUVIZ/layered_vectorization/tree/main"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (coming soon)</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+            </div>
+          
+          </div>
           
         </div>
       </div>
@@ -158,59 +210,7 @@
   </div>
 </section>
 
-<div class="column has-text-centered">
-  <div class="publication-links">
-    <!-- PDF Link. -->
-    <!-- <span class="link-block">
-      <a href="https://arxiv.org/pdf/2011.12948"
-         class="external-link button is-normal is-rounded is-dark">
-        <span class="icon">
-            <i class="fas fa-file-pdf"></i>
-        </span>
-        <span>Paper</span>
-      </a>
-    </span> -->
-    <span class="link-block">
-      <a href="https://arxiv.org/abs/2406.05404"
-         class="external-link button is-normal is-rounded is-dark">
-        <span class="icon">
-            <i class="ai ai-arxiv"></i>
-        </span>
-        <span>Paper (arXiv)</span>
-      </a>
-    </span>
-    <!-- Video Link. -->
-    <!-- <span class="link-block">
-      <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-         class="external-link button is-normal is-rounded is-dark">
-        <span class="icon">
-            <i class="fab fa-youtube"></i>
-        </span>
-        <span>Video</span>
-      </a>
-    </span> -->
-    <!-- Code Link. -->
-    <span class="link-block">
-      <a href="https://github.com/SZUVIZ/layered_vectorization/tree/main"
-         class="external-link button is-normal is-rounded is-dark">
-        <span class="icon">
-            <i class="fab fa-github"></i>
-        </span>
-        <span>Code (coming soon)</span>
-        </a>
-    </span>
-    <!-- Dataset Link. -->
-    <!-- <span class="link-block">
-      <a href="https://github.com/google/nerfies/releases/tag/0.1"
-         class="external-link button is-normal is-rounded is-dark">
-        <span class="icon">
-            <i class="far fa-images"></i>
-        </span>
-        <span>Data</span>
-        </a> -->
-  </div>
 
-</div>
 
 <section class="hero is-light is-small" style="background-color: #f0f0f0; margin-top: 30px; margin-bottom: 30px; padding-top: 50px; padding-bottom: 50px;">
   <div class="container is-max-desktop">
@@ -253,7 +253,7 @@
         <video class="gif notphone" src="./static/videos/geece1716101537.mp4" autoplay muted loop></video>
         <video class="gif notphone" src="./static/videos/boat1716201830.mp4" autoplay muted loop></video>
         <video class="gif notphone" src="./static/videos/building41716102248.mp4" autoplay muted loop></video>
-        <video class="gif notphone" src="./static/videos/butterfly1716202265.mp4" autoplay muted loop></video>
+        <!-- <video class="gif notphone" src="./static/videos/butterfly1716202265.mp4" autoplay muted loop></video> -->
         <video class="gif notphone" src="./static/videos/camera1716191934.mp4" autoplay muted loop></video>
         <video class="gif notphone" src="./static/videos/car121716193982.mp4" autoplay muted loop></video>
         <video class="gif notphone" src="./static/videos/cat111716114646.mp4" autoplay muted loop></video>
@@ -343,7 +343,7 @@
           <h2 class="title is-3">How Does it Work</h2>
         </div>
       </div>
-      <img src="./static/images/framework7.png" alt="image" style="max-width: 100%">
+      <img src="./static/images/framework7.png" alt="image" style="width: 60%">
       <div class="content has-text-justified">
         Layered vectorization pipeline: with the input of a target image, its sequence of progressive simplified images is generated using the SDS diffusion model. 
         Vectors are then reconstructed in two stages: structure construction via layer-wise shape optimization to match segmented masks and visual refinement for high fidelity.
@@ -360,7 +360,7 @@
           <h2 class="title is-3">Results</h2>
         </div>
       </div>
-      <img src="./static/images/layered6.png" alt="image" style="max-width:90%">
+      <img src="./static/images/layered6.png" alt="image" style="max-width:60%">
       <div class="content has-text-justified">
         Vectors with levels of detail generated with our method: from left to right, vector primitives from macro to finer details are added layer by layer.
       </div>     
@@ -376,7 +376,7 @@
           <h2 class="title is-3">Comparisons to Prior Work - Visual Quality</h2>
         </div>
       </div>
-      <img src="./static/images/result_visual_diff.png" alt="image" style= "margin-top: 30px; max-width: 100%">
+      <img src="./static/images/result_visual_diff.png" alt="image" style= "margin-top: 30px; max-width: 60%">
       <div class="content has-text-justified">
         Qualitative reconstruction comparison: both examples are vectorized with 128 vector primitives. Our method reconstructs more faithful, clean, and semantic-aligned vectors. 
       </div>   
@@ -392,7 +392,7 @@
           <h2 class="title is-3">Comparisons to Prior Work - Layer-wise Representation</h2>
         </div>
       </div>
-      <img src="./static/images/layered_5methods_1.png" alt="image" style= "margin-top: 30px; max-width: 100%">
+      <img src="./static/images/layered_5methods_1.png" alt="image" style= "margin-top: 30px; max-width: 60%">
       <div class="content has-text-justified">
         Vector layers generated by LIVE, DiffVG, O&R, SGLIVE, and our method.
       </div>   
@@ -454,7 +454,7 @@
         <video class="gif notphone" src="./static/videos/wolf1716198117.mp4" autoplay muted loop></video>   
         <video class="gif notphone" src="./static/videos/ham21716199449.mp4" autoplay muted loop></video>
         <video class="gif notphone" src="./static/videos/ddl21717477744.mp4" autoplay muted loop></video> 
-        <video class="gif notphone" src="./static/videos/szub21717478652.mp4" autoplay muted loop></video>   
+        <!-- <video class="gif notphone" src="./static/videos/szub21717478652.mp4" autoplay muted loop></video>    -->
         </div>
       </div>
     </div>
