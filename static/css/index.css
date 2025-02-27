@@ -21,6 +21,7 @@ body {
 .teaser .hero-body {
   padding-top: 0;
   padding-bottom: 3rem;
+  /* padding-bottom: 0; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,6 +93,7 @@ body {
 
 .author-block {
   display: inline-block;
+  font-size: 15px;
 }
 
 .publication-banner img {
@@ -146,14 +148,17 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+  /* align-items: center; */
   /* 添加一些间距以确保标题和 GIF 展示之间有足够的空间 */
 }
 
 .gif {
   border: 1.2px solid rgba(0, 0, 0, .2); /* 添加 2px 的黑色边框 */
   box-sizing: border-box; /* 让边框的宽度包括在元素的宽度内 */
-  width: 170px;
-  height: 170px;
+  /* width: 170px;
+  height: 170px; */
+  width: 113px;
+  height: 113px;
   margin: 5px;
   /* 为 gif 之间增加一些间距 */
 }
