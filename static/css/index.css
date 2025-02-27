@@ -93,6 +93,11 @@ body {
 
 .author-block {
   display: inline-block;
+  font-size: 22px;
+}
+
+.author_unit-block {
+  display: inline-block;
   font-size: 15px;
 }
 
