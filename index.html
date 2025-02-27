@@ -202,9 +202,9 @@
                 type="video/mp4">
       </video> -->
       <img src="./static/images/teaser6.png" alt="image">
-      <p style="max-width: 80%"><b>Layered vectorization</b>: by generating a sequence of semantically simplified images (top row), 
-        our technique constructs vectors with progressively finer levels of detail (second row from the top). 
-        This process generates visual primitives layer by layer (third row), keeping the primitives compactly within the boundaries of semantic groups (bottom row).
+      <p style="max-width: 80%"><b>Layered vectorization</b>: by generating a sequence of progressive simplified images (top row), 
+        our technique reconstructs vectors layer by layer, from macro to finer details (middle row). 
+        Our approach maintains the vectors compactly aligned within the boundaries of explicit and implicit semantic objects (bottom row).
       </p>
     </div>
   </div>
@@ -220,14 +220,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified" style="margin: 3em">
           <p>
-            This work presents a novel progressive image vectorization technique aimed
-            at generating layered vectors that represent the original image from coarse
-            to fine detail levels. Our approach introduces semantic simplification, which
-            combines Score Distillation Sampling and semantic segmentation to iteratively simplify the input image. Subsequently, our method optimizes the
-            vector layers for each of the progressively simplified images. Our method provides robust optimization, which avoids local minima and enables adjustable
-            detail levels in the final output. The layered, compact vector representation enhances usability for further editing and modification. Comparative
-            analysis with conventional vectorization methods demonstrates our technique’s superiority in producing vectors with high visual fidelity, and more
-            importantly, maintaining vector compactness and manageability.
+            This work presents a progressive image vectorization technique that reconstructs the raster image as layer-wise vectors from semantic-aligned macro structures to finer details. 
+            Our approach introduces a new image simplification method leveraging the feature-average effect in the Score Distillation Sampling mechanism, 
+            achieving effective visual abstraction from the detailed to coarse. Guided by the sequence of progressive simplified images, 
+            we propose a two-stage vectorization process of structural buildup and visual refinement, constructing the vectors in an organized and manageable manner. 
+            The resulting vectors are layered and well-aligned with the target image's explicit and implicit semantic structures. 
+            Our method demonstrates high performance across a wide range of images. Comparative analysis with existing vectorization methods highlights our technique's superiority in creating vectors with high visual fidelity, 
+            and more importantly, achieving higher semantic alignment and more compact layered representation. 
           </p>         
         </div>
       </div>
